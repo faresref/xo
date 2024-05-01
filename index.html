@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GAME XO</title>
+</head>
+<body>
+    <div class="game">
+    <div class="title"><span> X O </span>GAME</div>
+    <div class="square" id="item1" onclick="game(this.id)" ></div>
+    <div class="square" id="item2" onclick="game(this.id)" ></div>
+    <div class="square" id="item3" onclick="game(this.id)" ></div>
+
+    <div class="square" id="item4" onclick="game(this.id)" ></div>
+    <div class="square" id="item5" onclick="game(this.id)" ></div>
+    <div class="square" id="item6" onclick="game(this.id)" ></div>
+
+    <div class="square" id="item7" onclick="game(this.id)" ></div>
+    <div class="square" id="item8" onclick="game(this.id)" ></div>
+    <div class="square" id="item9" onclick="game(this.id)" ></div>
+</div>
+
+<div class="container2" id="con">
+    <div class="rola"  id="WARNING">
+        <P>"Please Entrer a tasks"</P>
+        </div>
+    <div class="titledata">
+        <input class="input" type="text" placeholder="task to be done..." >
+        
+        <button class='btnadd' onkeydown="">Add</button>
+    </div>
+    <div id="tasks"></div>
+
+</div>
+
+
+<script src="game.js"></script>
+    
+</body>
+</html>
